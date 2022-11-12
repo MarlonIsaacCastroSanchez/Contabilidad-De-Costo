@@ -1,4 +1,5 @@
-﻿using MODELO;
+﻿using System.Windows.Forms;
+using MODELO;
 namespace Controlador
 {
     public class Controlador

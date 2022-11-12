@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TareaDeCursoContabilidadDeCosto",
+    "\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto",
+    "\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador"
   ],
-  "SelectedNode": "\\ProyectoContabilidadDeCosto.sln",
+  "SelectedNode": "\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Class1.cs",
   "PreviewInSolutionExplorer": false
 }
