@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj",
         "projectName": "Controlador",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\obj\\",
         "projectStyle": "PackageReference",
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
+              "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
               }
             }
           }
@@ -66,12 +66,12 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
         "projectName": "MODELO",
-        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\obj\\",
         "projectStyle": "PackageReference",
