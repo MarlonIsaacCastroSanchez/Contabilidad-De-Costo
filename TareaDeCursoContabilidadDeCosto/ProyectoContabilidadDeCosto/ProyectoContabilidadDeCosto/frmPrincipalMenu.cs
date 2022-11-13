@@ -80,7 +80,8 @@ namespace ProyectoContabilidadDeCosto
 
         private void btnMSalir_Click(object sender, EventArgs e)
         {
-            
+            DialogResult r = MessageBox.Show("¿Esta seguro de salir?", "Sistema de Inventario", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (r == DialogResult.Yes) this.Close();
         }
     }
 }
