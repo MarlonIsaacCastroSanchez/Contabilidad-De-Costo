@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ProyectoContabilidadDeCosto.Intermidiarios;
+using ProyectoContabilidadDeCosto.Opciones.Inventario;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,22 +23,64 @@ namespace ProyectoContabilidadDeCosto
 
         private void btnSalida_Click(object sender, EventArgs e)
         {
-
+            using (var Iform = new ISalidas())
+            {
+                var result = Iform.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    Form FormularioVista = Iform.FormularioVista;
+                    this.Hide();
+                    FormularioVista.Show();
+                    FormularioVista.FormClosing += Frm_Closing;
+                }
+            }
         }
 
         private void btnInventario_Click(object sender, EventArgs e)
         {
-
+            Inventario FormularioVista = new Inventario();
+            this.Hide();
+            FormularioVista.Show();
+            FormularioVista.FormClosing += Frm_Closing;
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
-
+            using (var Iform = new IProductos())
+            {
+                var result = Iform.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    Form FormularioVista = Iform.FormularioVista;
+                    this.Hide();
+                    FormularioVista.Show();
+                    FormularioVista.FormClosing += Frm_Closing;
+                }
+            }
         }
 
         private void btnEntrada_Click(object sender, EventArgs e)
         {
+            using (var Iform = new IEntradas())
+            {
+                var result = Iform.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    Form FormularioVista = Iform.FormularioVista;
+                    this.Hide();
+                    FormularioVista.Show();
+                    FormularioVista.FormClosing += Frm_Closing;
+                }
+            }
+        }
+        private void Frm_Closing(object sender, FormClosingEventArgs e)
+        {
+            this.Show();
+        }
 
+        private void btnMSalir_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

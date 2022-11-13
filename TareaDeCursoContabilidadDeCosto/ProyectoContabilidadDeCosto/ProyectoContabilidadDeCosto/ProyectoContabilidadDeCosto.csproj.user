@@ -7,5 +7,26 @@
     <Compile Update="frmPrincipalMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Intermidiarios\IProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Intermidiarios\IEntradas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Intermidiarios\ISalidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Opciones\Entrada\Entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Opciones\Inventario\Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Opciones\Productos\Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Opciones\Salida\Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
