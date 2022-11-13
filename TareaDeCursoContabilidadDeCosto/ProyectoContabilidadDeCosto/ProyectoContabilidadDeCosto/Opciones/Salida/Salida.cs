@@ -19,7 +19,7 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-            this.Close();S
+            this.Close();
         }
     }
 }
