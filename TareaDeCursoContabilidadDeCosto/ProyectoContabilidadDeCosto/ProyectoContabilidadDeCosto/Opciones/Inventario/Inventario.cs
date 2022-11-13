@@ -17,5 +17,10 @@ namespace ProyectoContabilidadDeCosto.Opciones.Inventario
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

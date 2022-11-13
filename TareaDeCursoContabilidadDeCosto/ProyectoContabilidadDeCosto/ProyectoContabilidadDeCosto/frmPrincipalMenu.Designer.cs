@@ -164,7 +164,7 @@
             this.btnEntrada.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Descargar;
             this.btnEntrada.Location = new System.Drawing.Point(293, 400);
             this.btnEntrada.Name = "btnEntrada";
-            this.btnEntrada.Size = new System.Drawing.Size(140, 90);
+            this.btnEntrada.Size = new System.Drawing.Size(136, 80);
             this.btnEntrada.TabIndex = 1;
             this.btnEntrada.Text = "ENTRADA";
             this.btnEntrada.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -180,7 +180,7 @@
             this.btnSalida.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Subir;
             this.btnSalida.Location = new System.Drawing.Point(451, 400);
             this.btnSalida.Name = "btnSalida";
-            this.btnSalida.Size = new System.Drawing.Size(140, 90);
+            this.btnSalida.Size = new System.Drawing.Size(136, 80);
             this.btnSalida.TabIndex = 2;
             this.btnSalida.Text = "SALIDA";
             this.btnSalida.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -196,7 +196,7 @@
             this.btnProductos.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Productos;
             this.btnProductos.Location = new System.Drawing.Point(609, 400);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(140, 90);
+            this.btnProductos.Size = new System.Drawing.Size(136, 80);
             this.btnProductos.TabIndex = 3;
             this.btnProductos.Text = "PRODUCTOS";
             this.btnProductos.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -212,7 +212,7 @@
             this.btnInventario.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Almacenados;
             this.btnInventario.Location = new System.Drawing.Point(766, 400);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(140, 90);
+            this.btnInventario.Size = new System.Drawing.Size(136, 80);
             this.btnInventario.TabIndex = 4;
             this.btnInventario.Text = "INVENTARIO";
             this.btnInventario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
