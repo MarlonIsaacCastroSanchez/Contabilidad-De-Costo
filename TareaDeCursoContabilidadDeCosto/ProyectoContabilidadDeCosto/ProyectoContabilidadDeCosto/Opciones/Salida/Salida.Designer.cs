@@ -48,7 +48,6 @@
             this.txtStock = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.nupCant = new System.Windows.Forms.NumericUpDown();
-            this.btnGuardarTodo = new System.Windows.Forms.Button();
             this.dgvSalida = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -226,19 +225,6 @@
             this.nupCant.Size = new System.Drawing.Size(75, 22);
             this.nupCant.TabIndex = 8;
             // 
-            // btnGuardarTodo
-            // 
-            this.btnGuardarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarTodo.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnGuardarTodo.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Guardar;
-            this.btnGuardarTodo.Location = new System.Drawing.Point(738, 393);
-            this.btnGuardarTodo.Name = "btnGuardarTodo";
-            this.btnGuardarTodo.Size = new System.Drawing.Size(120, 45);
-            this.btnGuardarTodo.TabIndex = 9;
-            this.btnGuardarTodo.Text = "Guardar\r\nTodo";
-            this.btnGuardarTodo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnGuardarTodo.UseVisualStyleBackColor = true;
-            // 
             // dgvSalida
             // 
             this.dgvSalida.BackgroundColor = System.Drawing.Color.White;
@@ -329,7 +315,6 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.dgvSalida);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.btnGuardarTodo);
             this.Controls.Add(this.nupCant);
             this.Controls.Add(this.dtRegistro);
             this.Controls.Add(this.label3);
@@ -384,7 +369,6 @@
         private TextBox txtStock;
         private Label label9;
         private NumericUpDown nupCant;
-        private Button btnGuardarTodo;
         private DataGridView dgvSalida;
         private DataGridViewTextBoxColumn Codigo;
         private DataGridViewTextBoxColumn Descripcion;

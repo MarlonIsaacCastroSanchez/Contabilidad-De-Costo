@@ -7,22 +7,14 @@ namespace MODELO
 {
     internal class Inventario
     {
-        private string codProducto;
-        private string nomProducto;
-        private int cantProducto;
-        private double preProducto;
-        
-        public Inventario() { }
-        public Inventario(string codProducto, string nomProducto, int cantProducto, double preProducto)
-        {
-            this.codProducto = codProducto;
-            this.nomProducto = nomProducto;
-            this.cantProducto = cantProducto;
-            this.preProducto = preProducto;
-        }
-        public string CodProducto { get { return codProducto; } set { codProducto = value; } }
-        public string NomProducto { get { return nomProducto; } set { nomProducto = value; } }
-        public int CantProducto { get { return cantProducto; } set { cantProducto = value; } }
-        public double PreProducto { get { return preProducto; } set { preProducto = value; } }
+            public string Codigo { get; set; }
+            public string Descripcion { get; set; }
+            public string Categoria { get; set; }
+            public string Almacen { get; set; }
+            public string Entradas { get; set; }
+            public string Salidas { get; set; }
+            public string Stock { get; set; }
+            public string TotalEgresos { get; set; }
+            public string TotalIngresos { get; set; }
     }
 }
