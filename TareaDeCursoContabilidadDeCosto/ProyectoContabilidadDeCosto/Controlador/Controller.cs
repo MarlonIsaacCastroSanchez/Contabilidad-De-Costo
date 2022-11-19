@@ -18,5 +18,13 @@ namespace Controlador
             }
             return Pros;
         }
+        public void EliminarProducto(int Pos, List<MODELO.Producto> Productos, DataGridView ola)
+        {
+            if(Pos > -1 && Pos < Productos.Count)
+            {
+                Productos.RemoveAt(Pos);
+                ola.Rows.RemoveAt(Pos);
+            }
+        }
     }
 }

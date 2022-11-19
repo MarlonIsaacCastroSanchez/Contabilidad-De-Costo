@@ -8,6 +8,7 @@ namespace ProyectoContabilidadDeCosto
 {
     public class Datos
     {
+        //Algunas variables globales(MEGA IMPORTANTES NO TOCAR)
         public static MODELO.Producto Pro;
         public static List<MODELO.Producto> Pros = new List<MODELO.Producto>();
     }
