@@ -50,3 +50,8 @@ C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabili
 C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\obj\Debug\net6.0-windows\ProyectoContabilidadDeCosto.pdb
 C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\obj\Debug\net6.0-windows\ProyectoContabilidadDeCosto.genruntimeconfig.cache
 C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\obj\Debug\net6.0-windows\ref\ProyectoContabilidadDeCosto.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\bin\Debug\net6.0-windows\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\bin\Debug\net6.0-windows\MODELO.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\bin\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\bin\Debug\net6.0-windows\MODELO.pdb
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\ProyectoContabilidadDeCosto\obj\Debug\net6.0-windows\ProyectoContabilidadDeCosto.csproj.CopyComplete

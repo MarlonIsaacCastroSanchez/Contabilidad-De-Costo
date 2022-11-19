@@ -32,7 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dgvSalida = new System.Windows.Forms.DataGridView();
+            this.dgvEntrada = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrecioCompra = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -58,7 +58,7 @@
             this.lblTotal = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSalida)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEntrada)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCant)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,21 +96,21 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Entradas";
             // 
-            // dgvSalida
+            // dgvEntrada
             // 
-            this.dgvSalida.BackgroundColor = System.Drawing.Color.White;
-            this.dgvSalida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvSalida.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvEntrada.BackgroundColor = System.Drawing.Color.White;
+            this.dgvEntrada.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEntrada.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Codigo,
             this.Descripcion,
             this.PrecioCompra,
             this.Cantidad,
             this.SubTotal});
-            this.dgvSalida.Location = new System.Drawing.Point(26, 210);
-            this.dgvSalida.Name = "dgvSalida";
-            this.dgvSalida.RowTemplate.Height = 25;
-            this.dgvSalida.Size = new System.Drawing.Size(695, 222);
-            this.dgvSalida.TabIndex = 29;
+            this.dgvEntrada.Location = new System.Drawing.Point(26, 210);
+            this.dgvEntrada.Name = "dgvEntrada";
+            this.dgvEntrada.RowTemplate.Height = 25;
+            this.dgvEntrada.Size = new System.Drawing.Size(695, 222);
+            this.dgvEntrada.TabIndex = 29;
             // 
             // Codigo
             // 
@@ -315,7 +315,7 @@
             this.Controls.Add(this.lblTotal);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.dgvSalida);
+            this.Controls.Add(this.dgvEntrada);
             this.Controls.Add(this.nupCant);
             this.Controls.Add(this.dtRegistro);
             this.Controls.Add(this.label3);
@@ -342,7 +342,7 @@
             this.Text = "Entrada";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvSalida)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEntrada)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCant)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -354,7 +354,7 @@
         private Panel panel1;
         private Button btnRegresar;
         private Label label1;
-        private DataGridView dgvSalida;
+        private DataGridView dgvEntrada;
         private NumericUpDown nupCant;
         private DateTimePicker dtRegistro;
         private Label label3;

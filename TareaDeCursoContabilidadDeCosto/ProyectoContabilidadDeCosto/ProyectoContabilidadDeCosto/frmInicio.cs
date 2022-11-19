@@ -6,7 +6,7 @@ namespace ProyectoContabilidadDeCosto
     {
         int tri = 3;
         Thread th;
-        string Usuario = "Proyecto", Clave = "Contabilidad";
+        string Usuario = "a", Clave = "a";
         public frmInicio()
         {
             InitializeComponent();
