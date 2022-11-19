@@ -16,6 +16,11 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
         public Productos()
         {
             InitializeComponent();
+            if (Datos.Pros.Count > 0)
+            {
+                dgvProductos.Rows.Clear();
+                dgvProductos = Control.ActualizarProductos(dgvProductos, Datos.Pros);
+            }
         }
 
         private void btnRegresar_Click(object sender, EventArgs e)
@@ -25,12 +30,17 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if(cbCategorias.Text != "")
-            {
-                Datos.Validacion = true;
+            
+            if (cbCategorias.Text != "")
+            { 
+                if (Datos.Pros.Count > 0)
+                {
+                    dgvProductos.Rows.Clear();
+                    dgvProductos = Control.ActualizarProductos(dgvProductos, Datos.Pros);
+                }
                 Datos.Pro = new MODELO.Producto(txtCodProducto.Text, txtProducto.Text, cbCategorias.Text, 0, 0);
                 Datos.Pros.Add(Datos.Pro);
-                dgvProductos = Control.RellanrProductos(dgvProductos, Datos.Pro);
+                dgvProductos = Control.RellenarProductos(dgvProductos, Datos.Pro);
                 MessageBox.Show("Producto Agregado");
             }
             else

@@ -10,6 +10,5 @@ namespace ProyectoContabilidadDeCosto
     {
         public static MODELO.Producto Pro;
         public static List<MODELO.Producto> Pros = new List<MODELO.Producto>();
-        public static bool Validacion = false;
     }
 }
