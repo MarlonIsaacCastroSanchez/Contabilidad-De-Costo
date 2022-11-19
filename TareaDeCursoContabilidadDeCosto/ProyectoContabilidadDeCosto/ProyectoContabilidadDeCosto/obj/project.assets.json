@@ -1,26 +1,67 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Controlador/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MODELO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Controlador.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Controlador.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MODELO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MODELO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MODELO.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Controlador/1.0.0": {
+      "type": "project",
+      "path": "../Controlador/Controlador.csproj",
+      "msbuildProject": "../Controlador/Controlador.csproj"
+    },
+    "MODELO/1.0.0": {
+      "type": "project",
+      "path": "../MODELO/MODELO.csproj",
+      "msbuildProject": "../MODELO/MODELO.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Controlador >= 1.0.0",
+      "MODELO >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Gigabyte B550M\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectUniqueName": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "projectName": "ProyectoContabilidadDeCosto",
-      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
+      "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "packagesPath": "C:\\Users\\Gigabyte B550M\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gigabyte B550M\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +74,14 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
+            },
+            "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+              "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -64,7 +112,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

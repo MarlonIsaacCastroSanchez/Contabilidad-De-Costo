@@ -2,7 +2,7 @@
 using MODELO;
 namespace Controlador
 {
-    public class Controlador
+    public class Controler
     {
         baseDeDatos baseDeDatos= new baseDeDatos();
         //public void ViewContact(DataGridView dgvDatos)

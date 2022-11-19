@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {}
+    "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+    "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
+        "projectUniqueName": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
         "projectName": "MODELO",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\obj\\",
+        "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj",
+        "packagesPath": "C:\\Users\\Gigabyte B550M\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gigabyte B550M\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

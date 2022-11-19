@@ -73,7 +73,7 @@ namespace ProyectoContabilidadDeCosto
         private void time_Tick(object sender, EventArgs e)
         {
             if (pbrContinuar.Value < 100)
-                pbrContinuar.Value++;
+                pbrContinuar.Value += 5;
             if (pbrContinuar.Value == 100)
             {
                 time.Enabled = false;
