@@ -28,7 +28,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            
             if (cbCategorias.Text != "" && txtCodProducto.Text != "" && txtProducto.Text != "")
             {
                 ActualizarDGV();

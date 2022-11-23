@@ -28,22 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Entrada));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvEntrada = new System.Windows.Forms.DataGridView();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PrecioCompra = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nupCant = new System.Windows.Forms.NumericUpDown();
             this.dtRegistro = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtProducto = new System.Windows.Forms.TextBox();
             this.txtProveedor = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtPrecioCompra = new System.Windows.Forms.TextBox();
             this.txtCodProducto = new System.Windows.Forms.TextBox();
@@ -57,6 +55,11 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.lblTotal = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PrecioCompra = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntrada)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupCant)).BeginInit();
@@ -112,42 +115,11 @@
             this.dgvEntrada.Size = new System.Drawing.Size(695, 222);
             this.dgvEntrada.TabIndex = 29;
             // 
-            // Codigo
-            // 
-            this.Codigo.HeaderText = "Código";
-            this.Codigo.Name = "Codigo";
-            this.Codigo.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.HeaderText = "Descripción";
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            this.Descripcion.Width = 250;
-            // 
-            // PrecioCompra
-            // 
-            this.PrecioCompra.HeaderText = "Precio Compra";
-            this.PrecioCompra.Name = "PrecioCompra";
-            this.PrecioCompra.ReadOnly = true;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.HeaderText = "Cantidad";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
-            // 
-            // SubTotal
-            // 
-            this.SubTotal.HeaderText = "SubTotal";
-            this.SubTotal.Name = "SubTotal";
-            this.SubTotal.ReadOnly = true;
-            // 
             // nupCant
             // 
-            this.nupCant.Location = new System.Drawing.Point(588, 166);
+            this.nupCant.Location = new System.Drawing.Point(351, 166);
             this.nupCant.Name = "nupCant";
-            this.nupCant.Size = new System.Drawing.Size(75, 22);
+            this.nupCant.Size = new System.Drawing.Size(115, 22);
             this.nupCant.TabIndex = 28;
             // 
             // dtRegistro
@@ -167,28 +139,12 @@
             this.label3.TabIndex = 26;
             this.label3.Text = "Fecha de Registro";
             // 
-            // txtProducto
-            // 
-            this.txtProducto.Location = new System.Drawing.Point(220, 166);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(246, 22);
-            this.txtProducto.TabIndex = 25;
-            // 
             // txtProveedor
             // 
             this.txtProveedor.Location = new System.Drawing.Point(220, 110);
             this.txtProveedor.Name = "txtProveedor";
             this.txtProveedor.Size = new System.Drawing.Size(246, 22);
             this.txtProveedor.TabIndex = 20;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(220, 146);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 17);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Producto";
             // 
             // label5
             // 
@@ -201,9 +157,9 @@
             // 
             // txtPrecioCompra
             // 
-            this.txtPrecioCompra.Location = new System.Drawing.Point(480, 166);
+            this.txtPrecioCompra.Location = new System.Drawing.Point(221, 166);
             this.txtPrecioCompra.Name = "txtPrecioCompra";
-            this.txtPrecioCompra.Size = new System.Drawing.Size(94, 22);
+            this.txtPrecioCompra.Size = new System.Drawing.Size(121, 22);
             this.txtPrecioCompra.TabIndex = 22;
             // 
             // txtCodProducto
@@ -216,7 +172,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(581, 146);
+            this.label9.Location = new System.Drawing.Point(351, 146);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 17);
             this.label9.TabIndex = 17;
@@ -225,7 +181,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(479, 146);
+            this.label8.Location = new System.Drawing.Point(220, 146);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(97, 17);
             this.label8.TabIndex = 16;
@@ -306,6 +262,52 @@
             this.label10.TabIndex = 33;
             this.label10.Text = "Total: C$";
             // 
+            // Codigo
+            // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Codigo.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.Descripcion.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            this.Descripcion.Width = 250;
+            // 
+            // PrecioCompra
+            // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.PrecioCompra.DefaultCellStyle = dataGridViewCellStyle3;
+            this.PrecioCompra.HeaderText = "Precio Compra";
+            this.PrecioCompra.Name = "PrecioCompra";
+            this.PrecioCompra.ReadOnly = true;
+            // 
+            // Cantidad
+            // 
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Cantidad.HeaderText = "Cantidad";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            // 
+            // SubTotal
+            // 
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.SubTotal.DefaultCellStyle = dataGridViewCellStyle5;
+            this.SubTotal.HeaderText = "SubTotal";
+            this.SubTotal.Name = "SubTotal";
+            this.SubTotal.ReadOnly = true;
+            // 
             // Entrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -319,9 +321,7 @@
             this.Controls.Add(this.nupCant);
             this.Controls.Add(this.dtRegistro);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtProducto);
             this.Controls.Add(this.txtProveedor);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtPrecioCompra);
             this.Controls.Add(this.txtCodProducto);
@@ -358,9 +358,7 @@
         private NumericUpDown nupCant;
         private DateTimePicker dtRegistro;
         private Label label3;
-        private TextBox txtProducto;
         private TextBox txtProveedor;
-        private Label label7;
         private Label label5;
         private TextBox txtPrecioCompra;
         private TextBox txtCodProducto;
@@ -371,13 +369,13 @@
         private Label label4;
         private TextBox txtNumDoumento;
         private Label label2;
+        private Button btnGuardar;
+        private Label lblTotal;
+        private Label label10;
         private DataGridViewTextBoxColumn Codigo;
         private DataGridViewTextBoxColumn Descripcion;
         private DataGridViewTextBoxColumn PrecioCompra;
         private DataGridViewTextBoxColumn Cantidad;
         private DataGridViewTextBoxColumn SubTotal;
-        private Button btnGuardar;
-        private Label lblTotal;
-        private Label label10;
     }
 }
