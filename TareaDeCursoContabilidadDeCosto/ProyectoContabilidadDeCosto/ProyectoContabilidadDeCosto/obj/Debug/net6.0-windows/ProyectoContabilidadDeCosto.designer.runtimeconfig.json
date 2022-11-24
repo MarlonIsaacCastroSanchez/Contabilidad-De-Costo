@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Marlon\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Marlon\\.nuget\\packages"
+      "C:\\Users\\Gigabyte B550M\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gigabyte B550M\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
