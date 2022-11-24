@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectUniqueName": "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "projectName": "ProyectoContabilidadDeCosto",
-      "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectPath": "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "packagesPath": "C:\\Users\\Marlon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
+      "outputPath": "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -75,11 +75,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
-              "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
+            "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
             },
-            "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
-              "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
+            "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+              "projectPath": "C:\\Users\\Marlon\\Videos\\Nueva carpeta\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
             }
           }
         }
