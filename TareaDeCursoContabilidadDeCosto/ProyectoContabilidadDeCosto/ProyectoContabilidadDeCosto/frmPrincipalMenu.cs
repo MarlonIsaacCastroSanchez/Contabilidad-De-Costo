@@ -14,6 +14,8 @@ namespace ProyectoContabilidadDeCosto
 {
     public partial class frmPrincipalMenu : Form
     {
+        int validarEntrada = 0;
+        int validarEntrada2 = 0;
         public frmPrincipalMenu()
         {
             InitializeComponent();
@@ -23,15 +25,22 @@ namespace ProyectoContabilidadDeCosto
 
         private void btnSalida_Click(object sender, EventArgs e)
         {
-            using (var Iform = new ISalidas())
+            if (validarEntrada2 == 0)
             {
-                var result = Iform.ShowDialog();
-                if (result == DialogResult.OK)
+                MessageBox.Show("Ingrese un producto");
+            }
+            else
+            {
+                using (var Iform = new ISalidas())
                 {
-                    Form FormularioVista = Iform.FormularioVista;
-                    this.Hide();
-                    FormularioVista.Show();
-                    FormularioVista.FormClosing += Frm_Closing;
+                    var result = Iform.ShowDialog();
+                    if (result == DialogResult.OK)
+                    {
+                        Form FormularioVista = Iform.FormularioVista;
+                        this.Hide();
+                        FormularioVista.Show();
+                        FormularioVista.FormClosing += Frm_Closing;
+                    }
                 }
             }
         }
@@ -46,6 +55,8 @@ namespace ProyectoContabilidadDeCosto
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
+            validarEntrada = 1;
+            validarEntrada2 = 1;
             using (var Iform = new IProductos())
             {
                 var result = Iform.ShowDialog();
@@ -61,15 +72,22 @@ namespace ProyectoContabilidadDeCosto
 
         private void btnEntrada_Click(object sender, EventArgs e)
         {
-            using (var Iform = new IEntradas())
+            if (validarEntrada == 0)
             {
-                var result = Iform.ShowDialog();
-                if (result == DialogResult.OK)
+                MessageBox.Show("Ingrese un producto");
+            }
+            else
+            {
+                using (var Iform = new IEntradas())
                 {
-                    Form FormularioVista = Iform.FormularioVista;
-                    this.Hide();
-                    FormularioVista.Show();
-                    FormularioVista.FormClosing += Frm_Closing;
+                    var result = Iform.ShowDialog();
+                    if (result == DialogResult.OK)
+                    {
+                        Form FormularioVista = Iform.FormularioVista;
+                        this.Hide();
+                        FormularioVista.Show();
+                        FormularioVista.FormClosing += Frm_Closing;
+                    }
                 }
             }
         }

@@ -50,14 +50,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.nupCant = new System.Windows.Forms.NumericUpDown();
             this.dgvSalida = new System.Windows.Forms.DataGridView();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lblTotal = new System.Windows.Forms.Label();
-            this.btnGuardar = new System.Windows.Forms.Button();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PrecioVenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupCant)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSalida)).BeginInit();
@@ -112,6 +112,8 @@
             this.txtNumDoumento.Name = "txtNumDoumento";
             this.txtNumDoumento.Size = new System.Drawing.Size(122, 22);
             this.txtNumDoumento.TabIndex = 5;
+            this.txtNumDoumento.TextChanged += new System.EventHandler(this.txtNumDoumento_TextChanged);
+            this.txtNumDoumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumDoumento_KeyPress);
             // 
             // label3
             // 
@@ -145,6 +147,8 @@
             this.txtNumCliente.Name = "txtNumCliente";
             this.txtNumCliente.Size = new System.Drawing.Size(184, 22);
             this.txtNumCliente.TabIndex = 5;
+            this.txtNumCliente.TextChanged += new System.EventHandler(this.txtNumCliente_TextChanged);
+            this.txtNumCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumCliente_KeyPress);
             // 
             // label5
             // 
@@ -161,6 +165,8 @@
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(246, 22);
             this.txtCliente.TabIndex = 5;
+            this.txtCliente.TextChanged += new System.EventHandler(this.txtCliente_TextChanged);
+            this.txtCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCliente_KeyPress);
             // 
             // label6
             // 
@@ -177,6 +183,8 @@
             this.txtCodProducto.Name = "txtCodProducto";
             this.txtCodProducto.Size = new System.Drawing.Size(184, 22);
             this.txtCodProducto.TabIndex = 5;
+            this.txtCodProducto.TextChanged += new System.EventHandler(this.txtCodProducto_TextChanged);
+            this.txtCodProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodProducto_KeyPress);
             // 
             // label9
             // 
@@ -193,6 +201,8 @@
             this.nupCant.Name = "nupCant";
             this.nupCant.Size = new System.Drawing.Size(246, 22);
             this.nupCant.TabIndex = 8;
+            this.nupCant.ValueChanged += new System.EventHandler(this.nupCant_ValueChanged);
+            this.nupCant.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nupCant_KeyPress);
             // 
             // dgvSalida
             // 
@@ -209,40 +219,6 @@
             this.dgvSalida.RowTemplate.Height = 25;
             this.dgvSalida.Size = new System.Drawing.Size(695, 222);
             this.dgvSalida.TabIndex = 10;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(732, 330);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(63, 16);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Total: C$";
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTotal.Location = new System.Drawing.Point(794, 330);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(32, 16);
-            this.lblTotal.TabIndex = 12;
-            this.lblTotal.Text = "0.00";
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnGuardar.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Guardar;
-            this.btnGuardar.Location = new System.Drawing.Point(704, 161);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(130, 45);
-            this.btnGuardar.TabIndex = 9;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Codigo
             // 
@@ -289,6 +265,40 @@
             this.SubTotal.HeaderText = "SubTotal";
             this.SubTotal.Name = "SubTotal";
             this.SubTotal.ReadOnly = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label10.Location = new System.Drawing.Point(732, 330);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(63, 16);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "Total: C$";
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTotal.Location = new System.Drawing.Point(794, 330);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(32, 16);
+            this.lblTotal.TabIndex = 12;
+            this.lblTotal.Text = "0.00";
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnGuardar.Image = global::ProyectoContabilidadDeCosto.Properties.Resources.Guardar;
+            this.btnGuardar.Location = new System.Drawing.Point(704, 161);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(130, 45);
+            this.btnGuardar.TabIndex = 9;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Salida
             // 

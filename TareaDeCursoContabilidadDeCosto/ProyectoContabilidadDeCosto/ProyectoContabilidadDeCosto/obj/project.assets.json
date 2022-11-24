@@ -49,23 +49,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gigabyte B550M\\.nuget\\packages\\": {}
+    "C:\\Users\\Marlon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectUniqueName": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "projectName": "ProyectoContabilidadDeCosto",
-      "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
-      "packagesPath": "C:\\Users\\Gigabyte B550M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
+      "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "packagesPath": "C:\\Users\\Marlon\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gigabyte B550M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marlon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -75,11 +75,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
-              "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
+            "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
             },
-            "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
-              "projectPath": "C:\\Users\\Gigabyte B550M\\Source\\Repos\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
+            "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+              "projectPath": "C:\\Users\\Marlon\\Documents\\contabilidad de cocacolas\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
             }
           }
         }
@@ -99,8 +99,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -112,7 +111,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

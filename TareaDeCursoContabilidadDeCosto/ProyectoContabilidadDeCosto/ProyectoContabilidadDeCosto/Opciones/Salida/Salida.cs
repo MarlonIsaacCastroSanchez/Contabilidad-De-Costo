@@ -30,12 +30,96 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             //Falta validar mucho :D =>
-            Datos.Exit = Control.ValidarSalida(Datos.Entradas, txtNumDoumento, txtNumCliente, txtCliente,
-                txtCodProducto, nupCant, dtRegistro);
-            Datos.Salidas.Add(Datos.Exit);
-            Control.AsignarPrecioVenta(Datos.Salidas, Datos.Entradas);
-            Control.RegistrarSalida(Datos.Inventory, Datos.Salidas);
-            Control.RellenarSalidas(dgvSalida, Datos.Salidas, Datos.Pros);
+            if (txtNumDoumento.Text == "" || txtNumCliente.Text == "" || txtCliente.Text == "" || txtCodProducto.Text == "")
+            {
+                MessageBox.Show("Llene los campos vacíos");
+            }
+            else
+            {
+                Datos.Exit = Control.ValidarSalida(Datos.Entradas, txtNumDoumento, txtNumCliente, txtCliente,
+                    txtCodProducto, nupCant, dtRegistro);
+                Datos.Salidas.Add(Datos.Exit);
+                Control.AsignarPrecioVenta(Datos.Salidas, Datos.Entradas);
+                Control.RegistrarSalida(Datos.Inventory, Datos.Salidas);
+                Control.RellenarSalidas(dgvSalida, Datos.Salidas, Datos.Pros);
+            }
+        }
+
+        private void txtNumDoumento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumDoumento_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNumCliente_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCodProducto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCodProducto_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void nupCant_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nupCant_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCliente_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        }
+
+        private void txtNumCliente_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
