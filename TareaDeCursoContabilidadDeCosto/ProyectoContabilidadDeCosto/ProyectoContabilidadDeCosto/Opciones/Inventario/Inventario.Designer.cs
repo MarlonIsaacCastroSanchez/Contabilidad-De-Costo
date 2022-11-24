@@ -28,6 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inventario));
             this.dgvInventario = new System.Windows.Forms.DataGridView();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,48 +74,64 @@
             // 
             // Codigo
             // 
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Codigo.DefaultCellStyle = dataGridViewCellStyle1;
             this.Codigo.HeaderText = "Código";
             this.Codigo.Name = "Codigo";
             this.Codigo.ReadOnly = true;
             // 
             // Producto
             // 
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.Producto.DefaultCellStyle = dataGridViewCellStyle2;
             this.Producto.HeaderText = "Producto";
             this.Producto.Name = "Producto";
             this.Producto.ReadOnly = true;
             // 
             // Categoria
             // 
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Categoria.DefaultCellStyle = dataGridViewCellStyle3;
             this.Categoria.HeaderText = "Categoria";
             this.Categoria.Name = "Categoria";
             this.Categoria.ReadOnly = true;
             // 
             // Entradas
             // 
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.Entradas.DefaultCellStyle = dataGridViewCellStyle4;
             this.Entradas.HeaderText = "Entradas";
             this.Entradas.Name = "Entradas";
             this.Entradas.ReadOnly = true;
             // 
             // Salidas
             // 
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.Salidas.DefaultCellStyle = dataGridViewCellStyle5;
             this.Salidas.HeaderText = "Salidas";
             this.Salidas.Name = "Salidas";
             this.Salidas.ReadOnly = true;
             // 
             // Stock
             // 
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            this.Stock.DefaultCellStyle = dataGridViewCellStyle6;
             this.Stock.HeaderText = "Stock";
             this.Stock.Name = "Stock";
             this.Stock.ReadOnly = true;
             // 
             // TotalIngresos
             // 
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            this.TotalIngresos.DefaultCellStyle = dataGridViewCellStyle7;
             this.TotalIngresos.HeaderText = "Total Ingresos";
             this.TotalIngresos.Name = "TotalIngresos";
             this.TotalIngresos.ReadOnly = true;
             // 
             // TotalEgresos
             // 
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            this.TotalEgresos.DefaultCellStyle = dataGridViewCellStyle8;
             this.TotalEgresos.HeaderText = "Total Egresos";
             this.TotalEgresos.Name = "TotalEgresos";
             this.TotalEgresos.ReadOnly = true;
@@ -171,6 +195,9 @@
         #endregion
 
         private DataGridView dgvInventario;
+        private Panel panel1;
+        private Label label1;
+        private Button btnRegresar;
         private DataGridViewTextBoxColumn Codigo;
         private DataGridViewTextBoxColumn Producto;
         private DataGridViewTextBoxColumn Categoria;
@@ -179,8 +206,5 @@
         private DataGridViewTextBoxColumn Stock;
         private DataGridViewTextBoxColumn TotalIngresos;
         private DataGridViewTextBoxColumn TotalEgresos;
-        private Panel panel1;
-        private Label label1;
-        private Button btnRegresar;
     }
 }

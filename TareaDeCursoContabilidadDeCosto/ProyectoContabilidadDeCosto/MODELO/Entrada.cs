@@ -6,14 +6,29 @@ using System.Threading.Tasks;
 
 namespace MODELO
 {
-    internal class Entrada
+    public class Entrada
     {
-        public int IdEntrada { get; set; }
-        public string FechaRegistro { get; set; }
-        public string DocumentoProveedor { get; set; }
-        public string NombreProveedor { get; set; }
-        public string MontoTotal { get; set; }
-        public List<DetallesEntrada> EntradaDetalles { get; set; }
+        public int NoDoc { get; set; }
+        public string NoProveedor { get; set; }
+        public string Proveedor { get; set; }
+        public string CodigoProducto { get; set; }
+        public double PrecioCompra { get; set; }
+        public int Cantidad { get; set; }
+        public DateTime Fecha { get; set; }
+
+        public Entrada()
+        {
+        }
+
+        public Entrada(int noDoc, string noProveedor, string proveedor, string codigoProducto, double precioCompra, int cantidad, DateTime fecha)
+        {
+            NoDoc = noDoc;
+            NoProveedor = noProveedor;
+            Proveedor = proveedor;
+            CodigoProducto = codigoProducto;
+            PrecioCompra = precioCompra;
+            Cantidad = cantidad;
+            Fecha = fecha;
+        }
     }
-    internal class DetallesEntrada : Detalles { }
 }

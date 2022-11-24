@@ -224,7 +224,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(998, 545);
+            this.ClientSize = new System.Drawing.Size(1358, 545);
             this.Controls.Add(this.plMenu);
             this.Controls.Add(this.btnInventario);
             this.Controls.Add(this.btnEntrada);
