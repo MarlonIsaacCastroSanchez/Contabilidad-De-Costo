@@ -208,7 +208,6 @@
             this.txtPrecioCompra.Name = "txtPrecioCompra";
             this.txtPrecioCompra.Size = new System.Drawing.Size(121, 22);
             this.txtPrecioCompra.TabIndex = 22;
-            this.txtPrecioCompra.TextChanged += new System.EventHandler(this.txtPrecioCompra_TextChanged);
             this.txtPrecioCompra.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioCompra_KeyPress);
             // 
             // txtCodProducto
@@ -217,7 +216,6 @@
             this.txtCodProducto.Name = "txtCodProducto";
             this.txtCodProducto.Size = new System.Drawing.Size(184, 22);
             this.txtCodProducto.TabIndex = 23;
-            this.txtCodProducto.TextChanged += new System.EventHandler(this.txtCodProducto_TextChanged);
             this.txtCodProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodProducto_KeyPress);
             // 
             // label9

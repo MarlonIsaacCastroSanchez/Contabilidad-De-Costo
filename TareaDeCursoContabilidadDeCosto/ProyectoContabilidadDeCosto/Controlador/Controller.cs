@@ -88,8 +88,8 @@ namespace Controlador
             Salida Exit = new Salida();
             bool Existe = false;
             foreach(Entrada Entry in Entries)
-            {
-                if(Entry.CodigoProducto == ProdCod.Text)
+            { 
+                if(Entry.CodigoProducto == ProdCod.Text && Entry.CantidadXCod(Entries, ProdCod.Text) - Cantidad.Value >= 0)
                 {
                     Exit.NoDoc = int.Parse(NoDoc.Text);
                     Exit.NoCliente = int.Parse(NoCliente.Text);
@@ -101,7 +101,7 @@ namespace Controlador
                     Existe = true;
                 }
             }
-            if(Existe)
+            if(Existe == false)
             {
                 MessageBox.Show("No hay una entrada existente para esa salida");
             }
@@ -130,16 +130,18 @@ namespace Controlador
             {
                 foreach(Entrada Entrada in Entradas)
                 {
-                    foreach(Salida Salida in Salidas)
+                    if (Entrada.CodigoProducto == In.Productos.Codigo)
                     {
-                        string Codigo = Entrada.CodigoProducto;
-                        if(Salida.CodigoProducto == Codigo && In.Productos.Codigo == Codigo)
-                        {
-                            Ent.Add(Entrada.Cantidad);
-                            Sal.Add(Salida.Cantidad);
-                            In.Entradas = Ent.Sum();
-                            In.Salidas = Ent.Sum();
-                        }
+                        Ent.Add(Entrada.Cantidad);
+                        In.Entradas = Ent.Sum();
+                    }  
+                }
+                foreach (Salida Salida in Salidas)
+                {
+                    if (Salida.CodigoProducto == In.Productos.Codigo)
+                    {
+                        Sal.Add(Salida.Cantidad);
+                        In.Salidas = Sal.Sum();
                     }
                 }
             }

@@ -30,5 +30,17 @@ namespace MODELO
             Cantidad = cantidad;
             Fecha = fecha;
         }
+        public int CantidadXCod(List<Entrada> Entradas, string Codigo)
+        {
+            List<int> Cantidades = new List<int>();
+            foreach(Entrada entrada in Entradas)
+            {
+                if(entrada.CodigoProducto == Codigo)
+                {
+                    Cantidades.Add(entrada.Cantidad);
+                }
+            }
+            return Cantidades.Sum();
+        }
     }
 }

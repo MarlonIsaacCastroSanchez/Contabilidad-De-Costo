@@ -60,11 +60,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
             ActualizarDGV();
         }
 
-        private void txtCodProducto_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtCodProducto_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
@@ -75,11 +70,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Productos
             {
                 e.Handled = true;
             }
-        }
-
-        private void txtProducto_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

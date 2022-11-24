@@ -13,6 +13,7 @@ namespace MODELO
         public string Nombre { get; set; }
         public string Categoria { get; set; }
         public double CostoUnitario { get; set; }
+        public double PrecioVenta { get; set; }
         public int Cantidad { get; set; }
         //Contructores de la clase
         public Producto()

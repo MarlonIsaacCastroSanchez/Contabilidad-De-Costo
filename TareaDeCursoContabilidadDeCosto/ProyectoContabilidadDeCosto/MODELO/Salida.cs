@@ -29,6 +29,18 @@ namespace MODELO
             Cantidad = cantidad;
             PrecioVenta = -1;
             Fecha = fecha;
-        } 
+        }
+        public int CantidadXCod(List<Salida> Salidas, string Codigo)
+        {
+            List<int> Cantidades = new List<int>();
+            foreach (Salida Salida in Salidas)
+            {
+                if (Salida.CodigoProducto == Codigo)
+                {
+                    Cantidades.Add(Salida.Cantidad);
+                }
+            }
+            return Cantidades.Sum();
+        }
     }
 }

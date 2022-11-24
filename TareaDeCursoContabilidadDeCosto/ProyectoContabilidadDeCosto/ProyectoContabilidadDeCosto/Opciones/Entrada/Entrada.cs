@@ -64,11 +64,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Entrada
             }
         }
 
-        private void txtCodProducto_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtDocProveedor_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
@@ -91,11 +86,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Entrada
             {
                 e.Handled = true;
             }
-        }
-
-        private void txtPrecioCompra_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void txtPrecioCompra_KeyPress(object sender, KeyPressEventArgs e)

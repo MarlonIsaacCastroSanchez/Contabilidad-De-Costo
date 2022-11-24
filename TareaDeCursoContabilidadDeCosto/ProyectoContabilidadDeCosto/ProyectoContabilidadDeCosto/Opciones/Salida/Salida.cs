@@ -45,11 +45,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
             }
         }
 
-        private void txtNumDoumento_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtNumDoumento_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
@@ -74,11 +69,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
             }
         }
 
-        private void txtCodProducto_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtCodProducto_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
@@ -91,11 +81,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
             }
         }
 
-        private void nupCant_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void nupCant_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (Char.IsDigit(e.KeyChar))
@@ -106,20 +91,6 @@ namespace ProyectoContabilidadDeCosto.Opciones.Salida
             {
                 e.Handled = true;
             }
-        }
-
-        private void txtCliente_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCliente_KeyPress(object sender, KeyPressEventArgs e)
-        {
-        }
-
-        private void txtNumCliente_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

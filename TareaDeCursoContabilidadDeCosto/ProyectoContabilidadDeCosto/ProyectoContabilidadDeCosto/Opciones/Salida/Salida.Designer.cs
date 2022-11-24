@@ -112,7 +112,6 @@
             this.txtNumDoumento.Name = "txtNumDoumento";
             this.txtNumDoumento.Size = new System.Drawing.Size(122, 22);
             this.txtNumDoumento.TabIndex = 5;
-            this.txtNumDoumento.TextChanged += new System.EventHandler(this.txtNumDoumento_TextChanged);
             this.txtNumDoumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumDoumento_KeyPress);
             // 
             // label3
@@ -147,7 +146,6 @@
             this.txtNumCliente.Name = "txtNumCliente";
             this.txtNumCliente.Size = new System.Drawing.Size(184, 22);
             this.txtNumCliente.TabIndex = 5;
-            this.txtNumCliente.TextChanged += new System.EventHandler(this.txtNumCliente_TextChanged);
             this.txtNumCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumCliente_KeyPress);
             // 
             // label5
@@ -165,8 +163,6 @@
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(246, 22);
             this.txtCliente.TabIndex = 5;
-            this.txtCliente.TextChanged += new System.EventHandler(this.txtCliente_TextChanged);
-            this.txtCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCliente_KeyPress);
             // 
             // label6
             // 
@@ -183,7 +179,6 @@
             this.txtCodProducto.Name = "txtCodProducto";
             this.txtCodProducto.Size = new System.Drawing.Size(184, 22);
             this.txtCodProducto.TabIndex = 5;
-            this.txtCodProducto.TextChanged += new System.EventHandler(this.txtCodProducto_TextChanged);
             this.txtCodProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodProducto_KeyPress);
             // 
             // label9
@@ -201,7 +196,6 @@
             this.nupCant.Name = "nupCant";
             this.nupCant.Size = new System.Drawing.Size(246, 22);
             this.nupCant.TabIndex = 8;
-            this.nupCant.ValueChanged += new System.EventHandler(this.nupCant_ValueChanged);
             this.nupCant.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nupCant_KeyPress);
             // 
             // dgvSalida
