@@ -289,7 +289,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTotal.Location = new System.Drawing.Point(815, 366);
+            this.lblTotal.Location = new System.Drawing.Point(807, 416);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(32, 16);
             this.lblTotal.TabIndex = 34;
@@ -299,7 +299,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(753, 366);
+            this.label10.Location = new System.Drawing.Point(727, 416);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(63, 16);
             this.label10.TabIndex = 33;
