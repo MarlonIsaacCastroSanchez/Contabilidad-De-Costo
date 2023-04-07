@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "projectName": "ProyectoContabilidadDeCosto",
-      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
