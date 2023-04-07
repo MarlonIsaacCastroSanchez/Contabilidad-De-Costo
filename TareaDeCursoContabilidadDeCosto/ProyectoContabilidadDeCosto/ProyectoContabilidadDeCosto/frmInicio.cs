@@ -88,7 +88,7 @@ namespace ProyectoContabilidadDeCosto
             if (Mostrar.Checked == true)
                 txtContraseña.PasswordChar = '\0';
             else if (Mostrar.Checked == false)
-                txtContraseña.PasswordChar = '*';
+                txtContraseña.PasswordChar = '°';
         }
     }
 }

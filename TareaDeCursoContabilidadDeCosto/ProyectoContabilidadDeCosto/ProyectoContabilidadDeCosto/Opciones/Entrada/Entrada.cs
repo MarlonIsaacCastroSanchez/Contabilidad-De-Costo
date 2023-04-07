@@ -14,11 +14,11 @@ namespace ProyectoContabilidadDeCosto.Opciones.Entrada
     {
         MODELO.Inventario Inv;
         Controlador.Controller Control = new Controlador.Controller();
-        
+
         public Entrada()
         {
             InitializeComponent();
-            if(Datos.Entradas.Count > 0 && Datos.Pros.Count > 0)
+            if (Datos.Entradas.Count > 0 && Datos.Pros.Count > 0)
             {
                 Control.RellenarEntradas(dgvEntrada, Datos.Entradas, Datos.Pros);
             }
@@ -49,7 +49,7 @@ namespace ProyectoContabilidadDeCosto.Opciones.Entrada
 
         private void txtNumDoumento_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void txtNumDoumento_KeyPress(object sender, KeyPressEventArgs e)
