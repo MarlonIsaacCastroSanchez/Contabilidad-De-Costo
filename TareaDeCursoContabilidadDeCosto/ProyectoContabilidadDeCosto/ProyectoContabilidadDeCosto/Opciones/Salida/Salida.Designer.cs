@@ -28,6 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Salida));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnRegresar = new System.Windows.Forms.Button();
@@ -42,10 +47,6 @@
             this.txtCliente = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtCodProducto = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtProducto = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.txtStock = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.nupCant = new System.Windows.Forms.NumericUpDown();
             this.dgvSalida = new System.Windows.Forms.DataGridView();
@@ -111,6 +112,8 @@
             this.txtNumDoumento.Name = "txtNumDoumento";
             this.txtNumDoumento.Size = new System.Drawing.Size(122, 22);
             this.txtNumDoumento.TabIndex = 5;
+            this.txtNumDoumento.TextChanged += new System.EventHandler(this.txtNumDoumento_TextChanged);
+            this.txtNumDoumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumDoumento_KeyPress);
             // 
             // label3
             // 
@@ -144,6 +147,8 @@
             this.txtNumCliente.Name = "txtNumCliente";
             this.txtNumCliente.Size = new System.Drawing.Size(184, 22);
             this.txtNumCliente.TabIndex = 5;
+            this.txtNumCliente.TextChanged += new System.EventHandler(this.txtNumCliente_TextChanged);
+            this.txtNumCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumCliente_KeyPress);
             // 
             // label5
             // 
@@ -160,6 +165,8 @@
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(246, 22);
             this.txtCliente.TabIndex = 5;
+            this.txtCliente.TextChanged += new System.EventHandler(this.txtCliente_TextChanged);
+            this.txtCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCliente_KeyPress);
             // 
             // label6
             // 
@@ -176,43 +183,13 @@
             this.txtCodProducto.Name = "txtCodProducto";
             this.txtCodProducto.Size = new System.Drawing.Size(184, 22);
             this.txtCodProducto.TabIndex = 5;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(230, 152);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 17);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Producto";
-            // 
-            // txtProducto
-            // 
-            this.txtProducto.Location = new System.Drawing.Point(230, 172);
-            this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(246, 22);
-            this.txtProducto.TabIndex = 5;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(498, 152);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(42, 17);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Stock";
-            // 
-            // txtStock
-            // 
-            this.txtStock.Location = new System.Drawing.Point(499, 172);
-            this.txtStock.Name = "txtStock";
-            this.txtStock.Size = new System.Drawing.Size(73, 22);
-            this.txtStock.TabIndex = 5;
+            this.txtCodProducto.TextChanged += new System.EventHandler(this.txtCodProducto_TextChanged);
+            this.txtCodProducto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodProducto_KeyPress);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(596, 152);
+            this.label9.Location = new System.Drawing.Point(230, 152);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 17);
             this.label9.TabIndex = 4;
@@ -220,10 +197,12 @@
             // 
             // nupCant
             // 
-            this.nupCant.Location = new System.Drawing.Point(603, 172);
+            this.nupCant.Location = new System.Drawing.Point(230, 173);
             this.nupCant.Name = "nupCant";
-            this.nupCant.Size = new System.Drawing.Size(75, 22);
+            this.nupCant.Size = new System.Drawing.Size(246, 22);
             this.nupCant.TabIndex = 8;
+            this.nupCant.ValueChanged += new System.EventHandler(this.nupCant_ValueChanged);
+            this.nupCant.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nupCant_KeyPress);
             // 
             // dgvSalida
             // 
@@ -243,12 +222,18 @@
             // 
             // Codigo
             // 
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.Codigo.DefaultCellStyle = dataGridViewCellStyle1;
             this.Codigo.HeaderText = "Código";
             this.Codigo.Name = "Codigo";
             this.Codigo.ReadOnly = true;
             // 
             // Descripcion
             // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.Descripcion.DefaultCellStyle = dataGridViewCellStyle2;
             this.Descripcion.HeaderText = "Descripción";
             this.Descripcion.Name = "Descripcion";
             this.Descripcion.ReadOnly = true;
@@ -256,18 +241,27 @@
             // 
             // Cantidad
             // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle3;
             this.Cantidad.HeaderText = "Cantidad";
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.ReadOnly = true;
             // 
             // PrecioVenta
             // 
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            this.PrecioVenta.DefaultCellStyle = dataGridViewCellStyle4;
             this.PrecioVenta.HeaderText = "Precio Venta";
             this.PrecioVenta.Name = "PrecioVenta";
             this.PrecioVenta.ReadOnly = true;
             // 
             // SubTotal
             // 
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            this.SubTotal.DefaultCellStyle = dataGridViewCellStyle5;
             this.SubTotal.HeaderText = "SubTotal";
             this.SubTotal.Name = "SubTotal";
             this.SubTotal.ReadOnly = true;
@@ -304,6 +298,7 @@
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // Salida
             // 
@@ -318,14 +313,10 @@
             this.Controls.Add(this.nupCant);
             this.Controls.Add(this.dtRegistro);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.txtProducto);
             this.Controls.Add(this.txtCliente);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtStock);
             this.Controls.Add(this.txtCodProducto);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtNumCliente);
             this.Controls.Add(this.label4);
@@ -363,20 +354,16 @@
         private TextBox txtCliente;
         private Label label6;
         private TextBox txtCodProducto;
-        private Label label7;
-        private TextBox txtProducto;
-        private Label label8;
-        private TextBox txtStock;
         private Label label9;
         private NumericUpDown nupCant;
         private DataGridView dgvSalida;
+        private Label label10;
+        private Label lblTotal;
+        private Button btnGuardar;
         private DataGridViewTextBoxColumn Codigo;
         private DataGridViewTextBoxColumn Descripcion;
         private DataGridViewTextBoxColumn Cantidad;
         private DataGridViewTextBoxColumn PrecioVenta;
         private DataGridViewTextBoxColumn SubTotal;
-        private Label label10;
-        private Label lblTotal;
-        private Button btnGuardar;
     }
 }

@@ -6,7 +6,7 @@ namespace ProyectoContabilidadDeCosto
     {
         int tri = 3;
         Thread th;
-        string Usuario = "Proyecto", Clave = "Contabilidad";
+        string Usuario = "a", Clave = "a";
         public frmInicio()
         {
             InitializeComponent();
@@ -73,7 +73,7 @@ namespace ProyectoContabilidadDeCosto
         private void time_Tick(object sender, EventArgs e)
         {
             if (pbrContinuar.Value < 100)
-                pbrContinuar.Value++;
+                pbrContinuar.Value += 5;
             if (pbrContinuar.Value == 100)
             {
                 time.Enabled = false;
@@ -88,7 +88,7 @@ namespace ProyectoContabilidadDeCosto
             if (Mostrar.Checked == true)
                 txtContraseña.PasswordChar = '\0';
             else if (Mostrar.Checked == false)
-                txtContraseña.PasswordChar = '*';
+                txtContraseña.PasswordChar = '°';
         }
     }
 }
