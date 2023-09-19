@@ -1,0 +1,64 @@
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.deps.json
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.dll
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.dll
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.pdb
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CopyComplete
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.dll
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\refint\Controlador.dll
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Usuario\source\repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\ref\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.deps.json
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.pdb
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.AssemblyReference.cache
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfoInputs.cache
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfo.cs
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CopyComplete
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\refint\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\ref\Controlador.dll
+C:\Users\Gigabyte B550M\Source\Repos\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.ResolveComReference.cache
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.deps.json
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.dll
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.dll
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.pdb
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.AssemblyReference.cache
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.ResolveComReference.cache
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfoInputs.cache
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfo.cs
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CopyComplete
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.dll
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\refint\Controlador.dll
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Marlon\Documents\contabilidad de cocacolas\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\ref\Controlador.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.deps.json
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\bin\Debug\net6.0-windows\MODELO.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.ResolveComReference.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.CopyComplete
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\refint\Controlador.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\ref\Controlador.dll
+C:\Users\Usuario\Source\Repos\MarlonIsaacCastroSanchez\Contabilidad-De-Costo\TareaDeCursoContabilidadDeCosto\ProyectoContabilidadDeCosto\Controlador\obj\Debug\net6.0-windows\Controlador.csproj.ResolveComReference.cache

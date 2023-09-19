@@ -1,0 +1,125 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Controlador/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MODELO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Controlador.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Controlador.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "MODELO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MODELO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MODELO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Controlador/1.0.0": {
+      "type": "project",
+      "path": "../Controlador/Controlador.csproj",
+      "msbuildProject": "../Controlador/Controlador.csproj"
+    },
+    "MODELO/1.0.0": {
+      "type": "project",
+      "path": "../MODELO/MODELO.csproj",
+      "msbuildProject": "../MODELO/MODELO.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Controlador >= 1.0.0",
+      "MODELO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "projectName": "ProyectoContabilidadDeCosto",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\Controlador\\Controlador.csproj"
+            },
+            "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\MarlonIsaacCastroSanchez\\Contabilidad-De-Costo\\TareaDeCursoContabilidadDeCosto\\ProyectoContabilidadDeCosto\\MODELO\\MODELO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
